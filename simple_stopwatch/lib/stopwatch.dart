@@ -40,8 +40,16 @@ class _StopWatchState extends State<StopWatch> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Text('StopWatch'),
-            Text('${milliseconds}'),
+            Text('StopWatch',
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4!
+                    .copyWith(fontWeight: FontWeight.bold)),
+            Text('${milliseconds} ms',
+                style: Theme.of(context)
+                    .textTheme
+                    .headline4!
+                    .copyWith(color: Colors.red)),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
