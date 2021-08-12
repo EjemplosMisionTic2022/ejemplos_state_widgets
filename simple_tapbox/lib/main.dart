@@ -32,7 +32,12 @@ class TabBoxes extends StatelessWidget {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [InternalStateManagement(), ExternalStateManagement()],
+        children: [
+          Text('Internal state'),
+          InternalStateManagement(),
+          Text('Extenal state'),
+          ExternalStateManagement()
+        ],
       ),
     );
   }

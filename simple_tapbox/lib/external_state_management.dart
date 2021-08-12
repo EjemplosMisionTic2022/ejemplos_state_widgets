@@ -20,9 +20,15 @@ class _ExternalStateManagementState extends State<ExternalStateManagement> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      child: TapboxB(
-        active: _active,
-        onChanged: _handleTapboxChanged,
+      child: Container(
+        color: Colors.red,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: TapboxB(
+            active: _active,
+            onChanged: _handleTapboxChanged,
+          ),
+        ),
       ),
     );
   }
