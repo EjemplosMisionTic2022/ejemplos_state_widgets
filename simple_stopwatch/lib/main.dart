@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'stopwatch.dart';
+import 'ui/widgets/stopwatch.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'external_state_management.dart';
-import 'internal_state_management.dart';
+import 'ui/widgets/external_state_management.dart';
+import 'ui/widgets/internal_state_management.dart';
 
 void main() {
   runApp(MyApp());

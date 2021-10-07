@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'text_field.dart';
-import 'text_field_with_controller.dart';
-import 'text_form.dart';
+import 'ui/widgets/text_field.dart';
+import 'ui/widgets/text_field_with_controller.dart';
+import 'ui/widgets/text_form.dart';
 
 void main() {
   runApp(MyApp());
